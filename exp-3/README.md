@@ -1,16 +1,38 @@
-# React + Vite
+# SPA Routing using React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This experiment demonstrates client-side routing in a React Single Page Application (SPA) using React Router DOM. It includes multiple pages, dynamic routing, protected routes, and error handling.
 
-Currently, two official plugins are available:
+## Features
+- Basic routing (Home, About)
+- Dynamic routes using URL parameters
+- Nested routes (Dashboard)
+- Programmatic navigation (useNavigate)
+- Protected routes with authentication
+- 404 Not Found page handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Vite
+- React Router DOM
+- JavaScript
+- CSS
 
-## React Compiler
+## Setup Instructions
+1. Install dependencies:
+   npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Run the application:
+   npm run dev
 
-## Expanding the ESLint configuration
+## How It Works
+- Navigation is handled without page reload using React Router
+- Protected routes restrict access based on authentication
+- Dynamic routes allow passing parameters via URL
+- Invalid routes display a 404 page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+(https://fsd-2-experimentss-peei.vercel.app/)
+
+## Author
+Alisha Gupta
