@@ -20,7 +20,7 @@ npm install
 npm run dev  
 
 ## Live Demo
-(Add your Vercel link here)
+(https://fsd-2-experimentss.vercel.app/)
 
 ## Author
 Alisha Gupta
